@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+#banner{
+    background-image: url(images/banner-img.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.banner-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 808px;
+}
+.right-con{
+    width: 525px;
+    text-align: right;
+}
+.right-con h1{
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+.right-con p{
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 20px 0px;
+}
+.btn button{
+    color: #005FAC;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 26px;
+    border: none;
+    border-radius: 5px;
+}
+#failures{
+    margin-top: 135px;
+}
+.main-failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-failures{
+    width: 415px;
+    height: 400px;
+}
+.right-failures h2{
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.right-failures p{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-top: 24px;
+}
+.icon{
+    display: flex;
+    align-items: first baseline;
+}
+.icon p{
+    color: (#444343);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+   
+    padding-left: 10px;
+}
+.icon i{
+    color: #16D887;
+}
+#my-plan{
+    width: 100%;
+    height: 100%;
+    margin-top: 120px;
+}
+.plan-left h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+}
+.plan-cards{
+    margin-top: 80px;
+   display: flex;
+   justify-content: space-between;
+}
+.card{  
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+
+}
+.card-img img{
+    width: 90px;
+   margin-left: 65px;
+}
+.card-dtls h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+    padding: 5px 0px;
+}
+.card-dtls p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #737272;
+    text-align: center;
+}
+#watch-img{
+    width: 100%;
+    margin-top: 100px;
+}
+.hand-watch-img {
+    height: 300px;
+    border-radius: 8px;
+    
+}
+.hand-watch-dtls{
+   padding-left: 44px;
+   padding-top: 70px;
+}
+.gradent h1{
+    font-size:40px ;
+    font-weight:700 ;
+    color:  #FFF;
+    width: 450px;
+}
+.gradent button{    
+    border-radius: 5px;
+    background: #FFF;
+    width: 140px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+}
+.now button{
+    color: #005FAC;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gradent{
+position: relative;
+    bottom: 300px;
+    left: 0;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+
+
+
+#footer{
+    background: var(--Dark-01, #151414);
+    height: 500px;
+}
+.first-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+   
+}
+.footer-left{
+    width: 500px;
+}
+.footer-dtls h1{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.footer-dtls p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 18px;
+}
+.e-mail p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+span{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-img img{
+    width: 180px;
+    margin-top: 30px;
+}
+.footer-right{
+    margin-right: 120px;
+}
+.footer-right h1{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.email{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background: var(--Dark-01, #151414);
+    border: 1px solid #FFF;
+    position: absolute;
+    
+}
+.email-h1 h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #F3F3F3;
+    position: relative;
+    left: 20px;
+    top: 12px;
+    
+}
+.footer-btn{
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #005FAC;
+    margin-top: 40px;
+}
+.footer-btn h1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+    
+    
+}
